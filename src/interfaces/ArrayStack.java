@@ -22,4 +22,19 @@ public class ArrayStack implements Stack{
         System.out.println("peeking " + stack[pointer] + " from the array stack");
         return stack[pointer-1];
     }
+
+    @Override
+    public void add(Integer o) {
+
+    }
+
+    @Override
+    public void remove(Integer o) {
+
+    }
+
+    @Override
+    public int size() {
+        return 0;
+    }
 }

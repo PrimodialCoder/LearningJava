@@ -13,4 +13,19 @@ public class LinkedStack implements Stack {
         System.out.println("peeking from the linked stack");
         return 0;
     }
+
+    @Override
+    public void add(Integer o) {
+
+    }
+
+    @Override
+    public void remove(Integer o) {
+
+    }
+
+    @Override
+    public int size() {
+        return 0;
+    }
 }
